@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="User Profile Page for Vardhan Reddy's Account">
+  <title>User Profile</title>
+  <link rel="stylesheet" href="profile.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <div class="profile-container">
+    <div class="profile-header">
+      <img src="profile.jpeg" alt="Profile photo of Vardhan Reddy" class="profile-photo">
+      <h2>Vardhan Reddy</h2>
+      <p>User ID: 123456789</p>
+    </div>
+
+    <div class="profile-section">
+      <h3><i class="fas fa-user-circle"></i> Personal Information</h3>
+      <ul>
+        <li><strong>Email:</strong> vardhan@example.com</li>
+        <li><strong>Phone:</strong> +91 9876543210</li>
+        <li><strong>Address:</strong> Hyderabad, India</li>
+        <li><strong>Member Since:</strong> Jan 2023</li>
+      </ul>
+    </div>
+
+    <div class="profile-section">
+      <h3><i class="fas fa-box"></i> Recent Orders</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Order ID</th>
+            <th>Date</th>
+            <th>Items</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>#ORD00123</td>
+            <td>March 25, 2025</td>
+            <td>Smartphone, Charger</td>
+            <td><span class="status delivered">Delivered</span></td>
+          </tr>
+          <tr>
+            <td>#ORD00110</td>
+            <td>March 15, 2025</td>
+            <td>Wireless Earbuds</td>
+            <td><span class="status pending">Pending</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="profile-section">
+      <h3><i class="fas fa-cog"></i> Account Settings</h3>
+      <button type="button" class="btn">Edit Profile</button>
+      <button type="button" class="btn danger">Logout</button>
+    </div>
+  </div>
+
+</body>
+</html>
